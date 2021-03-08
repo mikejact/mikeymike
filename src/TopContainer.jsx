@@ -20,7 +20,7 @@ function TopContainer() {
         </span>
         <img
           className="profile-pic animate__animated animate__fadeInUpBig animate__delay-2s"
-          src="https://i.ibb.co/TtmMwLf/39022805-10160692711470285-653931508372865024-o.jpg"
+          src="https://i.ibb.co/RNTyJWN/michael.jpg"
           alt="profile"
         />
         <a className="scroll"  href="#middle-container">

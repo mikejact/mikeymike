@@ -61,14 +61,14 @@
 }
 
 .profile-pic {
-  height: auto;
+  height: 300px;
   border-radius: 50%;
   margin: auto;
   display: block;
-  width: 320px;
+  width: 300px;
   margin-right: 100px;
   margin-top: 75px;
-  background-position: center center;
+  /* background-position: center center; */
 }
 
 /* .img-fluid {
@@ -393,6 +393,7 @@
   }
   .profile-pic {
     width: 400px;
+    height: 400px;
   }
   .scroll {
     margin-bottom: 10px;
@@ -464,8 +465,8 @@
   }
 
   .profile-pic {
-    width: 375px;
-
+    width: 300px;
+    height: 300px;
     margin-top: 200px;
   }
 
@@ -504,7 +505,8 @@
   }
 
   .profile-pic {
-    width: 475px;
+    height: 300px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
@@ -645,6 +647,7 @@
 
   .profile-pic {
     width: 375px;
+    height: 375px;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -764,6 +767,7 @@
 @media screen and (max-width: 568px) {
   .profile-pic {
     width: 200px;
+    height: 200px;
   }
   .scroll {
     position: relative;
@@ -805,6 +809,7 @@
 
   .profile-pic {
     width: 240px;
+    height: 240px;
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -949,6 +954,7 @@ body {
 @media screen and (max-width: 320px) {
   .profile-pic {
     width: 220px;
+    height: 220px;
   }
 
   .mike {
@@ -1023,6 +1029,7 @@ body {
 @media screen and (max-width: 280px) {
   .profile-pic {
     width: 200px;
+    height: 200px;
   }
   .scroll {
     position: relative;
