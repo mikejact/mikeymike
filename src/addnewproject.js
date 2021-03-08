@@ -27,7 +27,7 @@ const addnewproject = [
       "https://i.ibb.co/1fjNh3v/Screenshot-2021-02-05-194356.png",
     name: "My Personal Website",
     meaning: "Designed and coded with UX/UI in mind I developed this website using React.js",
-    website: "www.facebook.com",
+    website: "https://www.mjawebdesigns.com/",
   },
   
 ];
