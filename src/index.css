@@ -111,6 +111,10 @@
   margin-top: 250px;
 }
 
+.project-card {
+  display: flex;
+}
+
 .language-icons {
   margin-left: 38px;
   margin-right: 38px;

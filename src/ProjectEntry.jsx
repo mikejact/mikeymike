@@ -13,7 +13,7 @@ import "mdbreact/dist/css/mdb.css";
 
 function Card(props) {
   return (
-    <div >
+    <div className = "project-card" >
       <MDBCol>
         <MDBCard className = "mx-auto cards card-size">
           <MDBCardImage className="img-fluid" src={props.image} waves />
