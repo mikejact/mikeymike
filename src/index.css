@@ -71,6 +71,10 @@
   background-position: center center;
 }
 
+.img-fluid {
+  height: 50%;
+}
+
 .scroll {
   position: absolute;
   bottom: 10px;
@@ -101,6 +105,8 @@
   background-color: white;
   padding-top: 125px;
 }
+
+
 
 .meet {
   font-family: "Barlow Condensed", sans-serif;
