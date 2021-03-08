@@ -117,10 +117,12 @@
 
 .img-fluid {
   flex-direction: column;
+  height: 50%;
 }
 
 .card-texts {
   flex-direction: column;
+  
 }
 
 .language-icons {
@@ -286,7 +288,7 @@
 
 .cards {
   margin-top: 150px;
-  flex-direction: row;
+  display: flex;
 }
 
 .card-size {
