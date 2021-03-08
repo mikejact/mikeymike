@@ -111,20 +111,6 @@
   margin-top: 250px;
 }
 
-.project-card {
-  display: flex;
-}
-
-.img-fluid {
-  flex-direction: column;
-  height: 50%;
-}
-
-.card-texts {
-  flex-direction: column;
-  
-}
-
 .language-icons {
   margin-left: 38px;
   margin-right: 38px;
@@ -288,7 +274,7 @@
 
 .cards {
   margin-top: 150px;
-  display: flex;
+  flex-direction: row;
 }
 
 .card-size {
