@@ -43,7 +43,7 @@ function MiddleContainer() {
             <h4 className="fast">UX / UI Design</h4>
             <p className="fasts">
               Attracting users/clients to your website and having them returning to your website is probably your number one goal.  From  the design of your logo to 
-              the placement of images and videos whilst adhering to varying color pallets I will assist you in designing or redesigning your company/brand.
+              the placement of images and videos all while adhering to varying color pallets I will assist you in designing or redesigning your company/brand.
             </p>
           </div>
 
