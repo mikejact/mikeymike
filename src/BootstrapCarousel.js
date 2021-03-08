@@ -27,7 +27,7 @@ function BootstrapCarousel() {
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item >
-    <h2 className = "testimonial">"Working with Mike was incredible. He was very attentive to my needs for my small business."</h2>
+    <h2 className = "testimonial">"Working with Mike was incredible. He was very attentive to my needs for my campaign."</h2>
     
     
     <Carousel.Caption>
