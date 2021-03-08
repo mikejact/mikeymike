@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { FontAwesomeIcon, fabSketch } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { faPencilRuler } from "@fortawesome/free-solid-svg-icons";
 import { faFileCode } from "@fortawesome/free-solid-svg-icons";
