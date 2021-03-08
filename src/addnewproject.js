@@ -7,7 +7,7 @@ const addnewproject = [
     name: "Karina Reid  - Candidate for Richmond City Council",
     meaning:
       "Web design and develoment for a candidate running for Richmond City Council in B.C., Canada",
-      website: "http://www.ascensionsciences.com",
+      website: "http://www.karinareid.ca",
   },
   
   {

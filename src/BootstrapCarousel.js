@@ -32,8 +32,8 @@ function BootstrapCarousel() {
     
     <Carousel.Caption>
       <h3 className = "name">Karina Reid</h3>
-      <p className = "names">Vancouver, Canada</p>
-      <p className = "names" >Business Owner</p>
+      <p className = "names">Richmond, Canada</p>
+      <p className = "names" >Canadian Politician</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
