@@ -5,14 +5,11 @@ import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons";
 function TopContainer() {
   return (
     <div className="top-background-image">
-      
+      <div className="mikes">
+        <h1 className="mike animate__animated animate__fadeInLeftBig ">
+          Hi, I'm Mike.
+        </h1>
 
-      
-        <div className="mikes">
-          <h1 className="mike animate__animated animate__fadeInLeftBig ">
-            Hi, I'm Mike.
-          </h1>
-        
         <span>
           <h2 className="programmer animate__animated animate__fadeInRightBig animate__delay-1s">
             a front-end web developer.
@@ -23,7 +20,7 @@ function TopContainer() {
           src="https://i.ibb.co/1zLs5BP/c386bc56-2ee4-443d-a2ab-5c26f7a748ad.jpg"
           alt="profile"
         />
-        <a className="scroll"  href="#middle-container">
+        <a className="scroll" href="#middle-container">
           <FontAwesomeIcon
             className="scroll"
             icon={faAngleDoubleDown}
