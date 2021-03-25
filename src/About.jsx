@@ -18,16 +18,16 @@ function About() {
       <div className="about-covers">
         <h1 className="meet">Nice to meet you</h1>
         <h1 className=" meet meets animate__animated animate__bounceInRight animate__delay-1s">
-          .
+          . . .
         </h1>
-        <h1 className=" meet meets animate__animated animate__bounceInRight animate__delay-2s">
+        {/* <h1 className=" meet meets animate__animated animate__bounceInRight animate__delay-2s">
           .
         </h1>
         <h1 className=" meet meets animate__animated animate__bounceInRight animate__delay-3s">
           .
-        </h1>
+        </h1> */}
         <img
-          className="mike-about animate__animated animate__fadeInRight animate__delay-4s"
+          className="mike-about animate__animated animate__fadeInRight animate__delay-2s"
           src={Mikes}
           alt="profile"
         />
