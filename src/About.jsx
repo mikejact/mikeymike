@@ -10,27 +10,46 @@ import { faJs } from "@fortawesome/free-brands-svg-icons";
 import { faPython } from "@fortawesome/free-brands-svg-icons";
 import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons";
 
+
+const currentTime = new Date().getHours();
+
 function About() {
+  
   return (
     <div>
       <NavBar />
 
+      
+
       <div className="about-covers">
-        <h1 className="meet">Nice to meet you</h1>
-        <h1 className=" meet meets animate__animated animate__bounceInRight animate__delay-1s">
+
+      <img
+          className="mike-about animate__animated animate__fadeInDown animate__delay-2s"
+          src={Mikes}
+          alt="profile"
+        />
+{/* animate__fadeInRight */}
+    
+      {currentTime < 12 ? <h1 className = "meet">Good morning, nice to meet you.</h1> : null}
+      {currentTime >= 12 && currentTime < 18 ? <h1 className = "meet">Good afternoon, nice to meet you.</h1> : null}
+      {currentTime >= 18 ? <h1 className = "meet">Good evening, nice to meet you.</h1> : null}
+      
+      {/* <h1 className = "meet">Testing</h1> */}
+        {/* <h1 className="meet">Nice to meet you</h1> */}
+        {/* <h1 className=" meet meets animate__animated animate__bounceInRight animate__delay-1s">
           . . .
-        </h1>
+        </h1> */}
         {/* <h1 className=" meet meets animate__animated animate__bounceInRight animate__delay-2s">
           .
         </h1>
         <h1 className=" meet meets animate__animated animate__bounceInRight animate__delay-3s">
           .
         </h1> */}
-        <img
+        {/* <img
           className="mike-about animate__animated animate__fadeInRight animate__delay-2s"
           src={Mikes}
           alt="profile"
-        />
+        /> */}
       </div>
 
       <a className="scroll" href="#middle-about">
@@ -38,7 +57,7 @@ function About() {
           className="scroll"
           icon={faAngleDoubleDown}
           bounce
-          size="2x"
+          size="1x"
           color="white"
         />
       </a>
@@ -73,6 +92,7 @@ function About() {
             Whether it be starting from scratch or updating and beautifying your
             current website I can assist you at reasonable rates.
           </p>
+       
           <div className="language-icon">
             <FontAwesomeIcon
               className="language-icons"
