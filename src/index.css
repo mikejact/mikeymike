@@ -585,7 +585,7 @@ margin-right: auto;
   }
 
   .about-middle {
-    height: 800px;
+    height: 850px;
   }
 
   .about-middle-text {
@@ -596,6 +596,7 @@ margin-right: auto;
     width: 900px;
     /* margin-top: 80px; */
     margin-top: -35px;
+    
   }
 
   .meet {
