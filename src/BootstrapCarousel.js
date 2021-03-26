@@ -27,7 +27,7 @@ function BootstrapCarousel() {
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item >
-    <h2 className = "testimonial">"Working with Mike was incredible. He was very attentive to my needs for my campaign."</h2>
+    <h2 className = "testimonial">"I really recommend Michael Acton’s work. He created a website for my campaign as a City Councillor. He asked all the right questions to get to know what my vision is. I’ve received so many incredible comments about my website. It’s inviting, state of the art and easy to access. Thank you!"</h2>
     
     
     <Carousel.Caption>
