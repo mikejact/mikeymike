@@ -24,7 +24,7 @@ function About() {
       <div className="about-covers">
 
       <img
-          className="mike-about animate__animated animate__fadeInDown animate__delay-2s"
+          className="mike-about animate__animated animate__fadeInDown animate__delay-1s"
           src={Mikes}
           alt="profile"
         />
