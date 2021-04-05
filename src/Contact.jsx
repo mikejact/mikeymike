@@ -7,11 +7,22 @@ require("dotenv").config();
 
 function Contact() {
   const [alertVisibility, setAlertVisibility] = useState(false);
+  const [submit, setSubmit] = useState("Send");
+  const [clicked, setClicked] = useState(false)
+  // function handleChange(event) {
+  //   console.log(event.target.value);
+  //   setAlertVisibility(true);
+  //   <div className="contactbackgrounds"></div>;
+  // }
+
+  function clickers() {
+     setClicked(true);
+  }
 
   function handleChange(event) {
-    console.log(event.target.value);
-    setAlertVisibility(true);
-    <div className="contactbackgrounds"></div>;
+    
+    setSubmit("Submitted! I'll get back to you soon!");
+    // <div className="contactbackgrounds"></div>;
   }
 
   function sendEmail(e) {
@@ -25,7 +36,7 @@ function Contact() {
         "user_2litFOggLdz5rAILeBIZT"
       )
       .then((result) => {
-        setAlertVisibility(true);
+        setSubmit("Submitted! Thanks, I'll get back to you soon.");
       });
     e.target.reset();
   }
@@ -42,6 +53,7 @@ function Contact() {
         <MDBRow className="formcontainer">
           <MDBCol md="6">
             <form onSubmit={sendEmail}>
+            <h1 className = "contactme">Contact Me</h1>
               <p className="h4 contactme text-center mb-4">
                 Please take a moment to fill out the info below and I'll get
                 back to you as soon as I can.
@@ -116,17 +128,19 @@ function Contact() {
                 name="message"
               />
               <div className="text-center mt-4">
-                <MDBBtn
-                  className="contactbackgrounds"
+                <button
+                  style={{backgroundColor: clicked ? "#29bb89" : "white"}}
+                  className="contactbutton"
+                  onClick= {clickers}
                   onChange={handleChange}
                   value={alertVisibility}
-                  color="warning"
+                  // color="warning"
                   outline
                   type="submit"
                 >
-                  Send
+                  {submit}
                   <MDBIcon far icon="paper-plane" className="ml-2" />
-                </MDBBtn>
+                </button>
               </div>
             </form>
           </MDBCol>
