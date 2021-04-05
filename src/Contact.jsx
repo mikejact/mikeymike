@@ -53,7 +53,7 @@ function Contact() {
         <MDBRow className="formcontainer">
           <MDBCol md="6">
             <form onSubmit={sendEmail}>
-            <h1 className = "contactme">Contact Me</h1>
+            <h1 className = "contactmike">Contact Me</h1>
               <p className="h4 contactme text-center mb-4">
                 Please take a moment to fill out the info below and I'll get
                 back to you as soon as I can.
