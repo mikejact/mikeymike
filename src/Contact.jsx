@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdbreact";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import emailjs from "emailjs-com";
 require("dotenv").config();
 
 function Contact() {
-  const [alertVisibility, setAlertVisibility] = useState(false);
+  // const [alertVisibility, setAlertVisibility] = useState(false);
   const [submit, setSubmit] = useState("Send");
   const [clicked, setClicked] = useState(false)
   // function handleChange(event) {
@@ -85,7 +85,7 @@ function Contact() {
               />
               <br />
 
-              {alertVisibility && (
+              {/* {alertVisibility && (
                 <div class="alert alert-success" role="alert">
                   Success! <br /> Your message has been sent. <br />
                   Click on the home button to go back to my homepage. <br />
@@ -94,7 +94,7 @@ function Contact() {
                     Home
                   </a>
                 </div>
-              )}
+              )} */}
 
               <label
                 htmlFor="defaultFormContactSubjectEx"
@@ -133,7 +133,7 @@ function Contact() {
                   className="contactbutton"
                   onClick= {clickers}
                   onChange={handleChange}
-                  value={alertVisibility}
+                  // value={alertVisibility}
                   // color="warning"
                   outline
                   type="submit"
