@@ -1,3 +1,5 @@
+
+
 const addnewproject = [
   
   {
@@ -22,11 +24,20 @@ const addnewproject = [
     website: "http://www.ascensionsciences.com",
   },
   {
+
     id: 3,
+    image:
+      "https://i.ibb.co/mXB5gDj/notes.png",
+    name: "A note taking app",
+    meaning: "Created with React.js this app allows users to create, keep and delete daily notes.",
+    website: "https://thingstodotoday.netlify.app/",
+  },
+  {
+    id: 4,
     image:
       "https://i.ibb.co/1fjNh3v/Screenshot-2021-02-05-194356.png",
     name: "My Personal Website",
-    meaning: "Designed and coded with UX/UI in mind I developed this website using React.js",
+    meaning: "Designed and coded with UX/UI in mind, I developed this website using React.js",
     website: "https://www.mjawebdesigns.com/",
   },
   
