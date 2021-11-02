@@ -56,7 +56,7 @@ function Contact() {
             <h1 className = "contactmike">Contact Me</h1>
               <p className="h4 contactme text-center mb-4">
                 Please take a moment to fill out the info below and I'll get
-                back to you as soon as I can.
+                back to you as soon as possible.
               </p>
               <br />
               <label htmlFor="defaultFormContactNameEx" className="grey-text">
